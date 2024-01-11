@@ -13,7 +13,9 @@ const ViewData = () => {
         <p>{state.value3}</p>
       </div>
 
-      <button onClick={() => navigate(-1)}>⬅️ Back</button>
+      <button className="disabled:bg-slate-950" onClick={() => navigate(-1)}>
+        ⬅️ Back
+      </button>
     </div>
   );
 };

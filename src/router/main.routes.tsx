@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import { RoutesEnum } from "../models/enums";
-import About from "../components/About";
-import Data from "../components/Data";
-import Home from "../components/Home";
-import ViewData from "../components/ViewData";
-import NotFound from "../components/NotFound";
+import About from "../pages/About";
+import Data from "../pages/Data";
+import Home from "../pages/Home";
+import ViewData from "../pages/ViewData";
+import NotFound from "../pages/NotFound";
 
 const MainRoutes = () => {
   return (

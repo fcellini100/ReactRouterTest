@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "react-query";
-import NavBar from "./components/NavBar";
+import NavBar from "./pages/NavBar";
 import MainRoutes from "./router/main.routes";
 
 function App() {
