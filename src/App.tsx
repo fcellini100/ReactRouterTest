@@ -1,10 +1,15 @@
-import "./App.css";
+import { QueryClient, QueryClientProvider } from "react-query";
+import NavBar from "./pages/NavBar";
+import MainRoutes from "./router/main.routes";
 
 function App() {
+  const queryClient = new QueryClient();
+
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <QueryClientProvider client={queryClient}>
+      <NavBar />
+      <MainRoutes />
+    </QueryClientProvider>
   );
 }
 
